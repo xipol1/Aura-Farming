@@ -1,0 +1,120 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-12",
+  "notes": "Daily global modifiers. The server returns the modifier for the current UTC date based on a rotation. v1 hardcodes a 30-day rotation; v1.1 makes them date-pinned for events (Diwali, IPL final, etc).",
+  "rotation": [
+    {
+      "id": "m_001",
+      "text": "Today: cricket items worth 2x aura.",
+      "affects_tag": null,
+      "affects_category": "cricket_india",
+      "multiplier": 2.0
+    },
+    {
+      "id": "m_002",
+      "text": "Today: cringe is worth more. -2x penalty.",
+      "affects_tag": "cringe",
+      "affects_category": null,
+      "multiplier": 2.0
+    },
+    {
+      "id": "m_003",
+      "text": "Today: sigma picks pay double.",
+      "affects_tag": "sigma",
+      "affects_category": null,
+      "multiplier": 2.0
+    },
+    {
+      "id": "m_004",
+      "text": "Today: anime moments worth 1.5x.",
+      "affects_tag": null,
+      "affects_category": "anime_sigma",
+      "multiplier": 1.5
+    },
+    {
+      "id": "m_005",
+      "text": "Today: Bollywood is the law. 2x aura.",
+      "affects_tag": null,
+      "affects_category": "bollywood",
+      "multiplier": 2.0
+    },
+    {
+      "id": "m_006",
+      "text": "Today: every sass line is in pirate speak.",
+      "affects_tag": null,
+      "affects_category": null,
+      "multiplier": 1.0,
+      "cosmetic_only": true,
+      "cosmetic_effect": "pirate_speak"
+    },
+    {
+      "id": "m_007",
+      "text": "Today: chronically_online tag is 1.5x.",
+      "affects_tag": "chronically_online",
+      "affects_category": null,
+      "multiplier": 1.5
+    },
+    {
+      "id": "m_008",
+      "text": "Today: tech founder items are inverted (negative becomes positive).",
+      "affects_tag": null,
+      "affects_category": "tech_founder",
+      "multiplier": -1.0
+    },
+    {
+      "id": "m_009",
+      "text": "Today: auntie-approved is in season. 2x aura.",
+      "affects_tag": "auntie_approved",
+      "affects_category": null,
+      "multiplier": 2.0
+    },
+    {
+      "id": "m_010",
+      "text": "Today: midwit penalty doubled.",
+      "affects_tag": "midwit",
+      "affects_category": null,
+      "multiplier": 2.0
+    },
+    {
+      "id": "m_011",
+      "text": "Today: every score is rounded to the nearest 100k. Chaos.",
+      "affects_tag": null,
+      "affects_category": null,
+      "multiplier": 1.0,
+      "cosmetic_only": true,
+      "cosmetic_effect": "round_to_100k"
+    },
+    {
+      "id": "m_012",
+      "text": "Today: dilemmas appear every 5 streaks instead of 7-10.",
+      "affects_tag": null,
+      "affects_category": null,
+      "multiplier": 1.0,
+      "cosmetic_only": true,
+      "cosmetic_effect": "more_dilemmas"
+    },
+    {
+      "id": "m_013",
+      "text": "Today: viral_moments items are 1.5x.",
+      "affects_tag": null,
+      "affects_category": "viral_moments",
+      "multiplier": 1.5
+    },
+    {
+      "id": "m_014",
+      "text": "Today: scores are hidden until the reveal even on the left panel.",
+      "affects_tag": null,
+      "affects_category": null,
+      "multiplier": 1.0,
+      "cosmetic_only": true,
+      "cosmetic_effect": "hide_left_score"
+    },
+    {
+      "id": "m_015",
+      "text": "Today: all music_culture items are 2x.",
+      "affects_tag": null,
+      "affects_category": "music_culture",
+      "multiplier": 2.0
+    }
+  ]
+}

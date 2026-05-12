@@ -1,0 +1,406 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-12",
+  "dilemmas": [
+    {
+      "id": "d_001",
+      "prompt": "Choose:",
+      "option_a": { "label": "Save your mother (you can't swim)", "aura_if_chosen": 198000, "tag": "auntie_approved" },
+      "option_b": { "label": "Save 5 strangers (you can swim)", "aura_if_chosen": 187000, "tag": "main_character" },
+      "category": "trolley",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_002",
+      "prompt": "Choose:",
+      "option_a": { "label": "Run over 1 child on the tracks", "aura_if_chosen": -45000, "tag": "cringe" },
+      "option_b": { "label": "Run over 5 elderly people", "aura_if_chosen": -67000, "tag": "cringe" },
+      "category": "trolley",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_003",
+      "prompt": "Choose:",
+      "option_a": { "label": "Kill baby Hitler knowing the future", "aura_if_chosen": 234000, "tag": "sigma" },
+      "option_b": { "label": "Don't intervene, let history happen", "aura_if_chosen": 78000, "tag": "delusional" },
+      "category": "trolley",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_004",
+      "prompt": "Choose:",
+      "option_a": { "label": "Run over your pet to save 1 stranger", "aura_if_chosen": -8000, "tag": "midwit" },
+      "option_b": { "label": "Run over the stranger to save your pet", "aura_if_chosen": 145000, "tag": "sigma" },
+      "category": "trolley",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_005",
+      "prompt": "Choose:",
+      "option_a": { "label": "Run over your toxic ex on the tracks", "aura_if_chosen": -23000, "tag": "delusional" },
+      "option_b": { "label": "Run over 3 strangers to spare them", "aura_if_chosen": -89000, "tag": "cringe" },
+      "category": "trolley",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_006",
+      "prompt": "Choose:",
+      "option_a": { "label": "Tell your best friend their partner is cheating", "aura_if_chosen": 187000, "tag": "sigma" },
+      "option_b": { "label": "Keep quiet, preserve your peace", "aura_if_chosen": -23000, "tag": "midwit" },
+      "category": "friends_vs_partner",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_007",
+      "prompt": "Choose:",
+      "option_a": { "label": "Skip your sibling's wedding", "aura_if_chosen": -34000, "tag": "cringe" },
+      "option_b": { "label": "Skip your best friend's wedding", "aura_if_chosen": -42000, "tag": "cringe" },
+      "category": "friends_vs_partner",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_008",
+      "prompt": "Choose:",
+      "option_a": { "label": "Tell your partner about that drunken kiss from 5 years ago", "aura_if_chosen": 91000, "tag": "sigma" },
+      "option_b": { "label": "Take it to the grave", "aura_if_chosen": 12000, "tag": "delusional" },
+      "category": "friends_vs_partner",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_009",
+      "prompt": "Choose:",
+      "option_a": { "label": "Be your best friend's witness on their wedding day", "aura_if_chosen": 56000, "tag": "auntie_approved" },
+      "option_b": { "label": "Be your partner's witness on the same day", "aura_if_chosen": 78000, "tag": "auntie_approved" },
+      "category": "friends_vs_partner",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_010",
+      "prompt": "Choose:",
+      "option_a": { "label": "Date your best friend's ex (everyone consents)", "aura_if_chosen": -12000, "tag": "midwit" },
+      "option_b": { "label": "Lose the friendship forever, never date the ex", "aura_if_chosen": 67000, "tag": "sigma" },
+      "category": "friends_vs_partner",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_011",
+      "prompt": "Choose:",
+      "option_a": { "label": "Be immortal but everyone you love dies", "aura_if_chosen": 89000, "tag": "delusional" },
+      "option_b": { "label": "Die peacefully tomorrow on your own terms", "aura_if_chosen": 198000, "tag": "sigma" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_012",
+      "prompt": "Choose:",
+      "option_a": { "label": "Know the exact date of your death", "aura_if_chosen": 78000, "tag": "sigma" },
+      "option_b": { "label": "Never know, live in uncertainty", "aura_if_chosen": 56000, "tag": "delusional" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_013",
+      "prompt": "Choose:",
+      "option_a": { "label": "Read minds 24/7, can't turn it off", "aura_if_chosen": -23000, "tag": "delusional" },
+      "option_b": { "label": "Be invisible 24/7, can't turn it off", "aura_if_chosen": 91000, "tag": "sigma" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_014",
+      "prompt": "Choose:",
+      "option_a": { "label": "Win the lottery but lose 1 friend per year forever", "aura_if_chosen": -34000, "tag": "cringe" },
+      "option_b": { "label": "Stay broke but keep everyone", "aura_if_chosen": 78000, "tag": "auntie_approved" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_015",
+      "prompt": "Choose:",
+      "option_a": { "label": "Become wildly successful but no one remembers your name after death", "aura_if_chosen": 56000, "tag": "midwit" },
+      "option_b": { "label": "Be ordinary but deeply loved by everyone who knows you", "aura_if_chosen": 167000, "tag": "auntie_approved" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_016",
+      "prompt": "Choose:",
+      "option_a": { "label": "Love someone who doesn't love you back forever", "aura_if_chosen": -42000, "tag": "delusional" },
+      "option_b": { "label": "Have someone love you back forever, you feel nothing", "aura_if_chosen": -56000, "tag": "delusional" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_017",
+      "prompt": "Choose:",
+      "option_a": { "label": "30 years of peak happiness, then nothing", "aura_if_chosen": 134000, "tag": "main_character" },
+      "option_b": { "label": "90 years of comfortable mediocrity", "aura_if_chosen": 23000, "tag": "midwit" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_018",
+      "prompt": "Choose:",
+      "option_a": { "label": "Know with certainty that God exists but ignores you", "aura_if_chosen": 89000, "tag": "delusional" },
+      "option_b": { "label": "Live in total spiritual uncertainty forever", "aura_if_chosen": 56000, "tag": "sigma" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_019",
+      "prompt": "Choose:",
+      "option_a": { "label": "Marry the person you love against your family's wishes", "aura_if_chosen": 178000, "tag": "main_character" },
+      "option_b": { "label": "Arranged marriage with someone the family approves", "aura_if_chosen": 12000, "tag": "auntie_approved" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_020",
+      "prompt": "Choose:",
+      "option_a": { "label": "Come out to your traditional Indian family at dinner", "aura_if_chosen": 234000, "tag": "sigma" },
+      "option_b": { "label": "Stay in the closet, never tell anyone", "aura_if_chosen": -23000, "tag": "delusional" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_021",
+      "prompt": "Choose:",
+      "option_a": { "label": "Take the IIT seat you don't actually want", "aura_if_chosen": -34000, "tag": "midwit" },
+      "option_b": { "label": "Reject IIT to pursue the career you love at a Tier 3 college", "aura_if_chosen": 187000, "tag": "sigma" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_022",
+      "prompt": "Choose:",
+      "option_a": { "label": "Stay in the US with green card and never see your parents age", "aura_if_chosen": -12000, "tag": "midwit" },
+      "option_b": { "label": "Return to India for your parents' final years", "aura_if_chosen": 198000, "tag": "auntie_approved" },
+      "category": "india_cultural",
+      "cultural_anchor": "diaspora"
+    },
+    {
+      "id": "d_023",
+      "prompt": "Choose:",
+      "option_a": { "label": "Accept dowry to keep family peace", "aura_if_chosen": -89000, "tag": "cringe" },
+      "option_b": { "label": "Refuse it publicly and break with your family", "aura_if_chosen": 245000, "tag": "sigma" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_024",
+      "prompt": "Choose:",
+      "option_a": { "label": "Tell your parents you're atheist at the Diwali pooja", "aura_if_chosen": 167000, "tag": "sigma" },
+      "option_b": { "label": "Pretend to believe forever to keep them happy", "aura_if_chosen": -8000, "tag": "delusional" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_025",
+      "prompt": "Choose:",
+      "option_a": { "label": "Refuse to touch your elders' feet at the family wedding", "aura_if_chosen": -23000, "tag": "delusional" },
+      "option_b": { "label": "Touch the feet of relatives you barely know", "aura_if_chosen": 8000, "tag": "midwit" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_026",
+      "prompt": "Choose:",
+      "option_a": { "label": "Be the firstborn that drops out of medicine for music", "aura_if_chosen": 198000, "tag": "main_character" },
+      "option_b": { "label": "Finish medicine, never play music again", "aura_if_chosen": -34000, "tag": "midwit" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_027",
+      "prompt": "Choose:",
+      "option_a": { "label": "Dance reggaeton at a conservative wedding", "aura_if_chosen": 134000, "tag": "main_character" },
+      "option_b": { "label": "Stand silently in the corner all night", "aura_if_chosen": 67000, "tag": "sigma" },
+      "category": "cringe_vs_cringe",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_028",
+      "prompt": "Choose:",
+      "option_a": { "label": "Forget your partner's name in a public introduction", "aura_if_chosen": -71000, "tag": "cringe" },
+      "option_b": { "label": "Call your partner by your ex's name", "aura_if_chosen": -134000, "tag": "cringe" },
+      "category": "cringe_vs_cringe",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_029",
+      "prompt": "Choose:",
+      "option_a": { "label": "Send the spicy WhatsApp to your boss by mistake", "aura_if_chosen": -56000, "tag": "cringe" },
+      "option_b": { "label": "Send it to your dad", "aura_if_chosen": -91000, "tag": "cringe" },
+      "category": "cringe_vs_cringe",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_030",
+      "prompt": "Choose:",
+      "option_a": { "label": "Trip on the stairs at the Oscars while accepting", "aura_if_chosen": -23000, "tag": "cringe" },
+      "option_b": { "label": "Trip on the stairs at your own wedding entrance", "aura_if_chosen": -42000, "tag": "cringe" },
+      "category": "cringe_vs_cringe",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_031",
+      "prompt": "Choose:",
+      "option_a": { "label": "Be the last human alive on Earth, peaceful but alone", "aura_if_chosen": 156000, "tag": "sigma" },
+      "option_b": { "label": "Be one of 100 chosen to restart civilization on Mars", "aura_if_chosen": 134000, "tag": "main_character" },
+      "category": "sigma_extreme",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_032",
+      "prompt": "Choose:",
+      "option_a": { "label": "Eat your already-dead best friend to survive on the mountain", "aura_if_chosen": 178000, "tag": "sigma" },
+      "option_b": { "label": "Starve to death with your morality intact", "aura_if_chosen": 134000, "tag": "delusional" },
+      "category": "sigma_extreme",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_033",
+      "prompt": "Choose:",
+      "option_a": { "label": "Find out your dad isn't your biological father at 30", "aura_if_chosen": -23000, "tag": "delusional" },
+      "option_b": { "label": "Find out your kid isn't biologically yours at 30", "aura_if_chosen": -56000, "tag": "delusional" },
+      "category": "sigma_extreme",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_034",
+      "prompt": "Choose:",
+      "option_a": { "label": "Be permanently 17 in spirit, 70 in body", "aura_if_chosen": -34000, "tag": "delusional" },
+      "option_b": { "label": "Be 70 in spirit, 17 in body", "aura_if_chosen": 67000, "tag": "sigma" },
+      "category": "sigma_extreme",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_035",
+      "prompt": "Choose:",
+      "option_a": { "label": "Steal from Bezos to cure 1 child's cancer", "aura_if_chosen": 287000, "tag": "main_character" },
+      "option_b": { "label": "Earn the money legally and cure 10% fewer children", "aura_if_chosen": 91000, "tag": "midwit" },
+      "category": "sigma_extreme",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_036",
+      "prompt": "Choose:",
+      "option_a": { "label": "Pineapple on pizza", "aura_if_chosen": -8000, "tag": "delusional" },
+      "option_b": { "label": "Spanish omelette WITH onion", "aura_if_chosen": 12000, "tag": "auntie_approved" },
+      "category": "cringe_vs_cringe",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_037",
+      "prompt": "Choose:",
+      "option_a": { "label": "Like your crush's old Instagram photo from 2019", "aura_if_chosen": -67000, "tag": "delusional" },
+      "option_b": { "label": "Like their mom's photo from 2017", "aura_if_chosen": -134000, "tag": "cringe" },
+      "category": "cringe_vs_cringe",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_038",
+      "prompt": "Choose:",
+      "option_a": { "label": "Argue with a Twitter stranger for 4 hours", "aura_if_chosen": -91000, "tag": "chronically_online" },
+      "option_b": { "label": "Lose the argument silently and log off", "aura_if_chosen": 134000, "tag": "sigma" },
+      "category": "sigma_extreme",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_039",
+      "prompt": "Choose:",
+      "option_a": { "label": "Take a corporate job paying 50 LPA in Bangalore", "aura_if_chosen": 23000, "tag": "midwit" },
+      "option_b": { "label": "Start your own thing in Goa, earn 8 LPA, full peace", "aura_if_chosen": 178000, "tag": "sigma" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_040",
+      "prompt": "Choose:",
+      "option_a": { "label": "Spend Diwali with your in-laws", "aura_if_chosen": 23000, "tag": "auntie_approved" },
+      "option_b": { "label": "Tell them you have COVID and stay home with your dog", "aura_if_chosen": 134000, "tag": "sigma" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_041",
+      "prompt": "Choose:",
+      "option_a": { "label": "Get a tattoo at 19 you'll regret at 35", "aura_if_chosen": -12000, "tag": "delusional" },
+      "option_b": { "label": "Get a face tattoo at 35", "aura_if_chosen": 89000, "tag": "main_character" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_042",
+      "prompt": "Choose:",
+      "option_a": { "label": "Be famous and broke", "aura_if_chosen": -34000, "tag": "delusional" },
+      "option_b": { "label": "Be rich and unknown", "aura_if_chosen": 178000, "tag": "sigma" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_043",
+      "prompt": "Choose:",
+      "option_a": { "label": "Get the promotion by undermining a colleague", "aura_if_chosen": -67000, "tag": "midwit" },
+      "option_b": { "label": "Refuse the promotion to keep your integrity", "aura_if_chosen": 187000, "tag": "sigma" },
+      "category": "sigma_extreme",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_044",
+      "prompt": "Choose:",
+      "option_a": { "label": "Lie on your CV and get the dream job", "aura_if_chosen": -23000, "tag": "midwit" },
+      "option_b": { "label": "Tell the truth and never hear back", "aura_if_chosen": 67000, "tag": "sigma" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_045",
+      "prompt": "Choose:",
+      "option_a": { "label": "Get caught lip-syncing on stage at Coachella", "aura_if_chosen": -89000, "tag": "cringe" },
+      "option_b": { "label": "Get caught using a ghostwriter for your bestseller", "aura_if_chosen": -45000, "tag": "midwit" },
+      "category": "cringe_vs_cringe",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_046",
+      "prompt": "Choose:",
+      "option_a": { "label": "Move to a small town and disappear for a decade", "aura_if_chosen": 178000, "tag": "sigma" },
+      "option_b": { "label": "Move to Dubai and post your tax-free life on LinkedIn", "aura_if_chosen": -56000, "tag": "midwit" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_047",
+      "prompt": "Choose:",
+      "option_a": { "label": "Cheat in your government exam and become an IAS officer", "aura_if_chosen": -134000, "tag": "cringe" },
+      "option_b": { "label": "Fail UPSC 5 times and become a teacher", "aura_if_chosen": 167000, "tag": "auntie_approved" },
+      "category": "india_cultural",
+      "cultural_anchor": "india"
+    },
+    {
+      "id": "d_048",
+      "prompt": "Choose:",
+      "option_a": { "label": "Be the parent who shows up to every game late and tired", "aura_if_chosen": 89000, "tag": "auntie_approved" },
+      "option_b": { "label": "Be the parent who never misses but is emotionally absent", "aura_if_chosen": -23000, "tag": "midwit" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_049",
+      "prompt": "Choose:",
+      "option_a": { "label": "Tell the truth at your therapist for the first time", "aura_if_chosen": 134000, "tag": "sigma" },
+      "option_b": { "label": "Keep performing the version of yourself you've crafted", "aura_if_chosen": -8000, "tag": "delusional" },
+      "category": "life_choices",
+      "cultural_anchor": "global"
+    },
+    {
+      "id": "d_050",
+      "prompt": "Choose:",
+      "option_a": { "label": "Find out your partner cheated 2 years ago, before you got engaged", "aura_if_chosen": -12000, "tag": "delusional" },
+      "option_b": { "label": "Find out your parent cheated on the other, before you were born", "aura_if_chosen": -23000, "tag": "delusional" },
+      "category": "friends_vs_partner",
+      "cultural_anchor": "global"
+    }
+  ]
+}
