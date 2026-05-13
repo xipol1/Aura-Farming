@@ -10,14 +10,14 @@ This is the operational checklist Claude Code follows. Tasks are ordered. Comple
 
 ### Day 1-2: Project bootstrap
 
-- [ ] Create new Next.js 15 project with App Router, TypeScript strict, Tailwind v4: `npx create-next-app@latest aura-off-app --typescript --tailwind --app --no-src-dir`
-- [ ] Initialize git, create remote on GitHub (private), push initial commit
+- [x] Create new Next.js project with App Router, TypeScript strict, Tailwind v4 (4b7119c — Next 16 accepted in place of 15)
+- [x] Initialize git, create remote on GitHub, push initial commit (4b7119c)
 - [ ] Link to Vercel project, confirm preview deploys work on PR
-- [ ] Add `prettier`, `eslint` config matching the conventions in `CLAUDE.md`
-- [ ] Set up `husky` + `lint-staged` for pre-commit
-- [ ] Copy this `aura-off/` documentation folder into the repo root
-- [ ] Move `CLAUDE.md` to the repo root (already done if you copied the folder)
-- [ ] Create `.env.example` with the variables listed in `docs/TECH_STACK.md`
+- [x] Add `prettier`, `eslint` config matching the conventions in `CLAUDE.md` (4b7119c)
+- [x] Set up `husky` + `lint-staged` for pre-commit (4b7119c)
+- [x] Copy this `aura-off/` documentation folder into the repo root (4b7119c)
+- [x] Move `CLAUDE.md` to the repo root (4b7119c)
+- [x] Create `.env.example` with the variables listed in `docs/TECH_STACK.md` (4b7119c)
 
 ### Day 2-3: Supabase setup
 
