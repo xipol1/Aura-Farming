@@ -160,7 +160,7 @@ This is the operational checklist Claude Code follows. Tasks are ordered. Comple
 - [ ] If conflict: pick alternative name from shortlist, update everything
 - [ ] Write privacy policy (use a template, customize for our data flows) → publish at `/privacy`
 - [ ] Write terms of service → publish at `/terms`
-- [ ] Implement age gate: modal on first visit, asks DOB, stores in localStorage, blocks under 16
+- [ ] Implement age gate: modal on first visit, asks DOB, stores in localStorage, blocks under 18
 - [ ] Implement `/api/data/delete` endpoint that deletes user + games + shares by device fingerprint
 - [ ] Add footer with links to privacy, terms, delete-my-data
 

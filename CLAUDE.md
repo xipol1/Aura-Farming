@@ -14,7 +14,7 @@ The core insight is that the mechanic and the content do all the work — there 
 
 ## Tech stack (non-negotiable for v1)
 
-- **Framework**: Next.js 15 (App Router) + React 19 + TypeScript strict
+- **Framework**: Next.js 16 (App Router) + React 19 + TypeScript strict
 - **Styling**: Tailwind CSS v4 + Framer Motion for animations
 - **Backend**: Supabase Free Tier (Postgres + anonymous auth)
 - **Hosting**: Vercel Hobby (free)
@@ -109,7 +109,7 @@ Array of objects. Each represents one cultural moment.
 type Item = {
   id: string;                    // 'i_001'
   label: string;                 // 'Messi raising the World Cup'
-  aura: number;                  // -100000 to +500000
+  aura: number;                  // -200000 to +400000
   tag: ItemTag;                  // determines color palette
   category: ItemCategory;        // for filtering / themed decks
   cultural_anchor: 'global' | 'india' | 'diaspora';
@@ -168,12 +168,18 @@ Daily global modifiers. The server returns the modifier for the current UTC date
 
 ```ts
 type Modifier = {
-  id: string;
-  date_iso: string;              // 'YYYY-MM-DD'
-  text: string;                  // 'Today: cricket items worth double aura.'
-  affects_tag?: ItemTag;
-  multiplier?: number;           // 2 = double, 0.5 = halved
+  id: string;                              // 'm_NNN'
+  text: string;                            // 'Today: ...' (max 60 chars)
+  affects_tag: ItemTag | null;             // null when no tag effect
+  affects_category: ItemCategory | null;   // null when no category effect
+  multiplier: number;                      // 0.5 to 2.0, -1.0 for inversion, 1.0 if cosmetic-only
+  cosmetic_only?: boolean;                 // defaults false
+  cosmetic_effect?: string;                // only present when cosmetic_only is true
 };
+
+// The modifier for the current UTC date is picked by rotation:
+//   rotation[dayOfYearUTC % rotation.length]
+// v1.1 may add date-pinned event modifiers (Diwali, IPL final, etc).
 ```
 
 ---

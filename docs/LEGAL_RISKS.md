@@ -81,9 +81,9 @@ Truth and opinion are defenses. We stay safe by:
 
 In force since 2025. Key obligations relevant to us:
 
-1. **Children under 18**: explicit verifiable parental consent required for processing personal data of minors. We mitigate by:
-   - **Minimum age 16 in Terms of Service** (lowest age we accept; India counts <18 as a child but we are a low-data game, this is a reasonable bound — verify with a lawyer before launch).
-   - **Age-gate at first interaction**: a modal asks for date of birth on first visit. Stored locally. If under 16, the app shows a "come back later" screen and does not write to Supabase.
+1. **Children under 18**: explicit verifiable parental consent required for processing personal data of minors. We avoid this regime entirely by:
+   - **Minimum age 18 in Terms of Service.** DPDPA defines a child as <18, so we set our floor at the statutory adult age. No edge cases, no parental consent flow.
+   - **Age-gate at first interaction**: a modal asks for date of birth on first visit. Stored locally. If under 18, the app shows a "come back later" screen and does not write to Supabase.
 2. **Data minimization**: we only store device fingerprint, streak counts, share events. No email, no real name, no location, no profile data.
 3. **Right to erasure**: provide a "delete my data" link in the footer that issues a single Supabase delete by device_fingerprint. Implement before launch.
 4. **Data Protection Officer**: not required at our scale.
